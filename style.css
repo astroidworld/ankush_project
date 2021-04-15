@@ -1,0 +1,125 @@
+body{
+  background-image: url("./pic/logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(24,24,22);
+}
+.container{
+   /* background-color: green; */
+   width: 1024px;
+   min-height: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
+header{
+  /* background-color: brown; */
+  min-height: 100px;
+  text-align: center;
+
+}
+
+
+
+main{
+  min-height: 400px;
+  /* background-color: blueviolet; */
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  
+}
+.map{
+  min-height: 400px;
+  /* background-color: crimson; */
+}
+.footer{
+  min-height: 75px;
+  /* background-color: magenta;  */
+  padding-top: 50px;
+  font-size: 20px;
+  
+  }
+.h1{
+  font-size: 50px;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 20px;
+}
+.para{
+  font-size: 20px;
+  color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.link{
+  text-decoration: none ;
+  font-size: 25px;
+  font-weight: 700;
+  color: darkred;
+
+}
+.link:hover{
+  opacity: 0.3;
+}
+
+.copyright{
+  color: azure;
+  text-align: center;
+}
+.copyright:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+nav{
+  background-color: rgba(2, 2, 2, 0.774);
+  min-height: 10px;
+  width: 1024px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+  position: sticky;
+  top: 2px;  
+  text-align: center;  
+   
+}
+.navlinks{
+  flex: 1;
+}
+.navlinks ul{
+/* margin-left: 10px; */
+display: inline;
+margin-right: 90px;
+}
+.navlinks ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 25px 0px 25px;
+
+}
+.navlinks ul a{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.navlinks ul li::after{
+  content:'';
+  width: 0%;
+  height: 2px;
+  background: #FCE38A;
+  display: block;
+  margin: auto;
+  transition: .3s;
+  }
+  .navlinks ul li:hover:after{
+  width: 100%;
+  }
